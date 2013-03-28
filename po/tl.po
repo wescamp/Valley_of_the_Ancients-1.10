@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Valley_of_the_Ancients-1.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-04 21:06-0400\n"
+"POT-Creation-Date: 2013-03-28 16:32-0400\n"
 "PO-Revision-Date: 2011-02-21 15:37+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -1014,23 +1014,22 @@ msgstr ""
 #. [multiplayer]: id=ktv
 #: Valley_of_the_Ancients/scenarios/KTV.cfg:10
 msgid ""
-"<b>Kill the Virgins! (Survival)</b>\n"
-"<span foreground='grey'>Version: 2.1 Final\n"
-"Created by: Skele</span>\n"
+"Kill the Virgins! (Survival)\n"
+"Created by: Skele\n"
 "\n"
 "Only by sacrificing two virgins will you be freed!\n"
 "\n"
-"<b>Recommended Settings:</b>\n"
+"Recommended Settings:\n"
 "\n"
-"Turns: <i>Unlimited</i>\n"
-"Village Gold: <i>1</i>\n"
-"Experience Modifier: <i>70%</i>\n"
-"Fog of War: <i>On</i>\n"
-"Starting Gold: <i>75</i>"
+"Turns: Unlimited\n"
+"Village Gold: 1\n"
+"Experience Modifier: 70%\n"
+"Fog of War: On\n"
+"Starting Gold: 75"
 msgstr ""
 
 #. [part]
-#: Valley_of_the_Ancients/scenarios/KTV.cfg:29
+#: Valley_of_the_Ancients/scenarios/KTV.cfg:28
 msgid ""
 "Why would anyone want to kill virgins? The unmerciful god Q'zrk demands it. "
 "Why? Your town's lack of temple worship has upset him and he threatens to "
@@ -1039,97 +1038,144 @@ msgid ""
 msgstr ""
 
 #. [side]: type=Elvish Lady
-#: Valley_of_the_Ancients/scenarios/KTV.cfg:42
-#: Valley_of_the_Ancients/scenarios/KTV.cfg:66
+#: Valley_of_the_Ancients/scenarios/KTV.cfg:41
+#: Valley_of_the_Ancients/scenarios/KTV.cfg:65
 msgid "Virgins"
 msgstr ""
 
 #. [side]
-#: Valley_of_the_Ancients/scenarios/KTV.cfg:89
-#: Valley_of_the_Ancients/scenarios/KTV.cfg:109
-#: Valley_of_the_Ancients/scenarios/KTV.cfg:129
-#: Valley_of_the_Ancients/scenarios/KTV.cfg:149
+#: Valley_of_the_Ancients/scenarios/KTV.cfg:88
+#: Valley_of_the_Ancients/scenarios/KTV.cfg:108
+#: Valley_of_the_Ancients/scenarios/KTV.cfg:128
+#: Valley_of_the_Ancients/scenarios/KTV.cfg:148
 msgid "Sacrificers"
 msgstr ""
 
-#. [objectives]
-#: Valley_of_the_Ancients/scenarios/KTV.cfg:169
-msgid ""
-"Version: 2.1 Final\n"
-"<i>By: Skele <small>don't just bitch, mail your suggestions: "
-"lslwesnoth@gmail.com <b>or</b> sjrs456@yahoo.fr</small>\n"
-"This scenario has never been defeated with Northies <small>send us a legit "
-"replay if you can do it.</small>\n"
-"</i>"
-msgstr ""
-
-#. [objectives]
-#: Valley_of_the_Ancients/scenarios/KTV.cfg:173
-msgid ""
-"<b>ATTENTION:</b>\n"
-"Due to the idiosyncracies of the AI engine, AI behavior will vary slightly "
-"by player location."
-msgstr ""
-
 #. [objective]: condition=win
-#: Valley_of_the_Ancients/scenarios/KTV.cfg:176
+#: Valley_of_the_Ancients/scenarios/KTV.cfg:169
 msgid "Kill the virgins!"
 msgstr ""
 
 #. [objective]: condition=lose
-#: Valley_of_the_Ancients/scenarios/KTV.cfg:180
+#: Valley_of_the_Ancients/scenarios/KTV.cfg:173
 msgid "Death of your team"
 msgstr ""
 
+#. [note]
+#: Valley_of_the_Ancients/scenarios/KTV.cfg:177
+msgid ""
+"Your Leader will respawn on death as long you have at least one unit left"
+msgstr ""
+
 #. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/KTV.cfg:418
+#: Valley_of_the_Ancients/scenarios/KTV.cfg:414
 msgid "Thank God you made it! Please destroy me!!!"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/KTV.cfg:420
-#: Valley_of_the_Ancients/scenarios/KTV.cfg:445
-#: Valley_of_the_Ancients/scenarios/KTV.cfg:492
-#: Valley_of_the_Ancients/scenarios/KTV.cfg:679
+#: Valley_of_the_Ancients/scenarios/KTV.cfg:416
+#: Valley_of_the_Ancients/scenarios/KTV.cfg:441
+#: Valley_of_the_Ancients/scenarios/KTV.cfg:488
+#: Valley_of_the_Ancients/scenarios/KTV.cfg:675
 msgid "Innocent Virgin"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/KTV.cfg:443
+#: Valley_of_the_Ancients/scenarios/KTV.cfg:439
 msgid "Oh please, just kill me now!!!"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/KTV.cfg:452
-#: Valley_of_the_Ancients/scenarios/KTV.cfg:453
-#: Valley_of_the_Ancients/scenarios/KTV.cfg:661
-#: Valley_of_the_Ancients/scenarios/KTV.cfg:662
+#: Valley_of_the_Ancients/scenarios/KTV.cfg:448
+#: Valley_of_the_Ancients/scenarios/KTV.cfg:449
+#: Valley_of_the_Ancients/scenarios/KTV.cfg:657
+#: Valley_of_the_Ancients/scenarios/KTV.cfg:658
 msgid "Virgin Altar"
 msgstr ""
 
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/KTV.cfg:490
-msgid ""
-"If we two virgins must die for the good of all, so be it.  Show no mercy "
-"before the angry god!"
+#. [event]
+#: Valley_of_the_Ancients/scenarios/KTV.cfg:476
+msgid "Hooligans [IBP-P]"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/KTV.cfg:530
-#: Valley_of_the_Ancients/scenarios/KTV.cfg:610
+#: Valley_of_the_Ancients/scenarios/KTV.cfg:486
+msgid ""
+"If we two virgins must die for the good of all, so be it. Show no mercy "
+"before the angry god!"
+msgstr ""
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/KTV.cfg:495
+msgid "Healer with Guards [AIPB-M]"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Valley_of_the_Ancients/scenarios/KTV.cfg:526
+#: Valley_of_the_Ancients/scenarios/KTV.cfg:606
 msgid "Free at last! I will help you but first I must heal!"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/KTV.cfg:532
-#: Valley_of_the_Ancients/scenarios/KTV.cfg:612
+#: Valley_of_the_Ancients/scenarios/KTV.cfg:528
+#: Valley_of_the_Ancients/scenarios/KTV.cfg:608
 msgid "Talking Squid"
 msgstr ""
 
+#. [event]
+#: Valley_of_the_Ancients/scenarios/KTV.cfg:535
+msgid "Evil Things [CAIB-MPp]"
+msgstr ""
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/KTV.cfg:545
+msgid "Water Dwellers [IPA-MSH]"
+msgstr ""
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/KTV.cfg:555
+msgid "Savages [BPF-P]"
+msgstr ""
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/KTV.cfg:565
+msgid "Stampede [APB-H]"
+msgstr ""
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/KTV.cfg:575
+msgid "Tree Huggers [AIPB-Mm]"
+msgstr ""
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/KTV.cfg:615
+msgid "Animals [IB]"
+msgstr ""
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/KTV.cfg:625
+msgid "Fire and Steel [BIFP]"
+msgstr ""
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/KTV.cfg:635
+msgid "Hodgepodge [IFCABP-MDR]"
+msgstr ""
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/KTV.cfg:645
+msgid "Kill the Virgins!"
+msgstr ""
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/KTV.cfg:660
+msgid "Hail Q'zrk!"
+msgstr ""
+
 #. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/KTV.cfg:677
+#: Valley_of_the_Ancients/scenarios/KTV.cfg:673
 msgid ""
-"Free us from our altars and sacrifice us to Q'zrk!  Hurry before it is too "
+"Free us from our altars and sacrifice us to Q'zrk! Hurry before it is too "
 "late!"
 msgstr ""
 
@@ -1635,591 +1681,6 @@ msgstr ""
 #. [message]: role=maldor
 #: Valley_of_the_Ancients/scenarios/Outbreak.cfg:1310
 msgid "... *casts lvl99 of 'Turn Undead'*"
-msgstr ""
-
-#. [multiplayer]: id=3_Ways_2_Die_scenario
-#: Valley_of_the_Ancients/scenarios/Three_Ways_to_Die.cfg:5
-msgid "3 Ways 2 Die"
-msgstr ""
-
-#. [multiplayer]: id=3_Ways_2_Die_scenario
-#: Valley_of_the_Ancients/scenarios/Three_Ways_to_Die.cfg:6
-msgid ""
-"Six Warrior came into a Cave to discover it but a evil mage and becom "
-"prisinors. Now they must fight together to defead the evil mage."
-msgstr ""
-
-#. [print]
-#: Valley_of_the_Ancients/scenarios/Three_Ways_to_Die.cfg:114
-msgid "Difficulty: "
-msgstr ""
-
-#. [objective]: condition=win
-#: Valley_of_the_Ancients/scenarios/Three_Ways_to_Die.cfg:186
-msgid "Death of all enemies."
-msgstr ""
-
-#. [objective]: condition=lose
-#: Valley_of_the_Ancients/scenarios/Three_Ways_to_Die.cfg:190
-msgid "Death of all Warriors."
-msgstr ""
-
-#. [message]
-#: Valley_of_the_Ancients/scenarios/Three_Ways_to_Die.cfg:261
-msgid ""
-"Welcome prisoners, hehe.\n"
-" \n"
-"Now I will show my mighty power to defead you to become my soldier.\n"
-" \n"
-"You have only one Way to come out, haha, but you have no chance, you must "
-"defead all my monsters to come out.\n"
-" \n"
-"Try it but you lose!"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/Three_Ways_to_Die.cfg:276
-msgid ""
-"Move your unit in the 'Upgrade' tent, to upgrade your unit. You can upgrade "
-"your unit at the beginning of each wave."
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/Three_Ways_to_Die.cfg:287
-msgid "Choose difficulty:"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/Three_Ways_to_Die.cfg:289
-msgid "Noob"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/Three_Ways_to_Die.cfg:290
-msgid "Amateur"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/Three_Ways_to_Die.cfg:291
-msgid "Average"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/Three_Ways_to_Die.cfg:292
-msgid "Senior"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/Three_Ways_to_Die.cfg:293
-msgid "Pro"
-msgstr ""
-
-#. [then]
-#: Valley_of_the_Ancients/scenarios/Three_Ways_to_Die.cfg:386
-#: Valley_of_the_Ancients/scenarios/Three_Ways_to_Die.cfg:423
-#: Valley_of_the_Ancients/scenarios/Three_Ways_to_Die.cfg:619
-msgid "Reward gold: $reward_gold|"
-msgstr ""
-
-#. [message]
-#: Valley_of_the_Ancients/scenarios/Three_Ways_to_Die.cfg:399
-msgid ""
-"Damn! This is impossible! Nobody can beat all my monsters.You are not "
-"mortal. I disarpear!"
-msgstr ""
-
-#. [then]
-#: Valley_of_the_Ancients/scenarios/Three_Ways_to_Die.cfg:439
-msgid "Upgrade"
-msgstr ""
-
-#. [side]
-#: Valley_of_the_Ancients/scenarios/Three_Ways_to_Die.cfg:629
-msgid "Enemies"
-msgstr ""
-
-#. [side]
-#: Valley_of_the_Ancients/scenarios/Three_Ways_to_Die.cfg:644
-#: Valley_of_the_Ancients/scenarios/Three_Ways_to_Die.cfg:657
-#: Valley_of_the_Ancients/scenarios/Three_Ways_to_Die.cfg:670
-#: Valley_of_the_Ancients/scenarios/Three_Ways_to_Die.cfg:683
-#: Valley_of_the_Ancients/scenarios/Three_Ways_to_Die.cfg:696
-#: Valley_of_the_Ancients/scenarios/Three_Ways_to_Die.cfg:709
-msgid "Prisoners"
-msgstr ""
-
-#. [side]: type=Ancient Lich
-#: Valley_of_the_Ancients/scenarios/Three_Ways_to_Die.cfg:723
-msgid "Spectators"
-msgstr ""
-
-#. [side]: type=Ancient Lich
-#: Valley_of_the_Ancients/scenarios/Three_Ways_to_Die.cfg:726
-msgid "Lazarus"
-msgstr ""
-
-#. [multiplayer]: id=survivalisland_id
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:5
-msgid "Survival Island"
-msgstr ""
-
-#. [multiplayer]: id=survivalisland_id
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:7
-msgid ""
-"Outlast other players - Best played with BOB's RPG Era - Original version by "
-"Death1"
-msgstr ""
-
-#. [side]: id=Computer_1, type=Ancient Lich
-#. [side]: id=Computer_2, type=Death Knight
-#. [side]: id=Computer_3, type=Death Knight
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:69
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:86
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:103
-msgid "Evils"
-msgstr ""
-
-#. [label]
-#. [set_menu_item]: id=upgradeshop
-#. [set_menu_item]: id=upgradeshop2
-#. [set_menu_item]: id=upgradeshop3
-#. [set_menu_item]: id=upgradeshop4
-#. [set_menu_item]: id=upgradeshop5
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:116
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:122
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:128
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:134
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:140
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:357
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:398
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:439
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:480
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:521
-msgid "Shop"
-msgstr ""
-
-#. [option]: id=survivalisland_id
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:146
-msgid "Heal: +{AMOUNT} HP - {PRICE} Gold"
-msgstr ""
-
-#. [option]: id=survivalisland_id
-#. [option]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:182
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:92
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:117
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:528
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:787
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:1270
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:1684
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:1733
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:1970
-msgid "Done"
-msgstr ""
-
-#. [option]: id=survivalisland_id
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:191
-msgid "Max Health: +{AMOUNT} HP - {PRICE} Gold"
-msgstr ""
-
-#. [option]: id=survivalisland_id
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:226
-msgid "Increase Ranged Strikes: +1 - {PRICE} Gold"
-msgstr ""
-
-#. [option]: id=survivalisland_id
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:258
-msgid "Increase Ranged Damage: +{AMOUNT} - {PRICE} Gold"
-msgstr ""
-
-#. [option]: id=survivalisland_id
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:290
-msgid "Increase Melee Strikes: +1 - {PRICE} Gold"
-msgstr ""
-
-#. [option]: id=survivalisland_id
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:322
-msgid "Increase Melee Damage: +{AMOUNT} - {PRICE} Gold"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:375
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:416
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:457
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:498
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:539
-msgid "You have $gold gold coins to spend in the Shop."
-msgstr ""
-
-#. [unit]: id=Zaros, type=Elvish Hero
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:568
-msgid "Zaros"
-msgstr ""
-
-#. [unit]: type=Elvish Fighter
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:575
-msgid "Rol"
-msgstr ""
-
-#. [message]: id=Zaros
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:583
-msgid "Get out of our forest!"
-msgstr ""
-
-#. [unit]: type=Dark Adept
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:597
-msgid "female^Jonna"
-msgstr ""
-
-#. [unit]: type=Dark Adept
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:605
-msgid "Oworcyn"
-msgstr ""
-
-#. [message]: speaker=Narrator
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:621
-msgid "You encounter 2 Dark Adepts and a Walking Corpse"
-msgstr ""
-
-#. [unit]: type=Dwarvish Scout
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:634
-msgid "Gomthsol"
-msgstr ""
-
-#. [unit]: type=Dwarvish Scout
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:641
-msgid "Althaus"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:649
-msgid "You encounter 2 Dwarvish Scouts"
-msgstr ""
-
-#. [unit]: type=Elvish Fighter
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:662
-msgid "Delundir"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:670
-msgid "you encounter an Elvish Fighter"
-msgstr ""
-
-#. [unit]: type=Elvish Archer
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:683
-msgid "Elril"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:691
-msgid "you encounter an Elvish Archer"
-msgstr ""
-
-#. [unit]: type=Elvish Shaman
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:704
-msgid "Uryrieril"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:712
-msgid "you encounter an Elvish Shaman"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:768
-msgid "You are ambushed by Zombies"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:789
-msgid "a Skeletal Dragon... RUN!"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:821
-msgid "You Encounter 3 Mermans"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:841
-msgid "you encounter a Yeti, no one will ever believe you :P"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:861
-msgid "you are ambushed by a saurian skirmisher"
-msgstr ""
-
-#. [message]
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:889
-msgid "you encounter an 2 Zombies"
-msgstr ""
-
-#. [message]: id=Narrator
-#: Valley_of_the_Ancients/scenarios/survivalisland.cfg:1333
-msgid ""
-"I've heard you all plotting to kill me, so now it is you who shall die. Go "
-"my clones!"
-msgstr ""
-
-#. [unstore_unit]
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:25
-msgid " max HP"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:89
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:114
-msgid "<span color='gold'>Gold: $gold|</span>"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:112
-msgid "Enhancement"
-msgstr ""
-
-#. [option]: speaker=narrator
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:124
-msgid "10 gold: +1 melee damage"
-msgstr ""
-
-#. [option]: speaker=narrator
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:148
-msgid "10 gold: +1 ranged damage"
-msgstr ""
-
-#. [option]: speaker=narrator
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:172
-msgid "16 gold: +1 both Damage"
-msgstr ""
-
-#. [option]: speaker=narrator
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:195
-msgid "35 gold: +1 melee strikes"
-msgstr ""
-
-#. [option]: speaker=narrator
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:219
-msgid "35 gold: +1 ranged strikes"
-msgstr ""
-
-#. [option]: speaker=narrator
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:243
-msgid "56 gold: +1 both strikes"
-msgstr ""
-
-#. [option]: speaker=narrator
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:266
-msgid "5 gold: +5 hitpoints"
-msgstr ""
-
-#. [option]: speaker=narrator
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:290
-msgid "10 gold: +1 movement points"
-msgstr ""
-
-#. [option]: speaker=narrator
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:313
-msgid "15 gold: +4 regenerates ability"
-msgstr ""
-
-#. [regenerate]: id=regenerates
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:356
-msgid "regenerates +$custom_regen$side_number||"
-msgstr ""
-
-#. [regenerate]: id=regenerates
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:357
-msgid ""
-"Regenerates $custom_regen$side_number||:\n"
-"The unit will heal itself $custom_regen$side_number|| HP per turn. If it is "
-"poisoned, it will remove the poison instead of healing."
-msgstr ""
-
-#. [option]: speaker=narrator
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:369
-msgid "5 gold: +4hp heals ability"
-msgstr ""
-
-#. [heals]: id=healing
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:412
-msgid "heals +$custom_healing$side_number||"
-msgstr ""
-
-#. [heals]: id=healing
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:413
-msgid ""
-"Heals +$custom_healing$side_number||:\n"
-"Allows the unit to heal adjacent friendly units at the beginning of each "
-"turn.\n"
-"\n"
-"A unit cared for by this healer may heal up to $custom_healing$side_number|| "
-"HP per turn, or stop poison from taking effect for that turn.\n"
-"A poisoned unit cannot be cured of its poison by a healer, and must seek the "
-"care of a village or a unit that can cure."
-msgstr ""
-
-#. [option]: speaker=narrator
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:431
-msgid "10 gold: +1hp feeding ability"
-msgstr ""
-
-#. [dummy]: id=feeding$side_number|
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:464
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:1885
-msgid "feeding +$custom_feed$side_number||"
-msgstr ""
-
-#. [dummy]: id=feeding$side_number|
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:465
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:1886
-msgid "female^feeding +$custom_feed$side_number||"
-msgstr ""
-
-#. [dummy]: id=feeding$side_number|
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:466
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:1887
-msgid ""
-"Feeding +$custom_feed$side_number||:\n"
-"This unit gains $custom_feed$side_number|| hitpoint added to its maximum "
-"whenever it kills a living unit."
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [option]: speaker=narrator
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:489
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:515
-msgid "Resistances"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:516
-msgid ""
-"<span color='gold'>Gold: $gold|</span>\n"
-"<b>Upgrades left: $resup_left_$side_number||</b>\n"
-"\n"
-"<i>Current resistances:</i>\n"
-"<small>blade: $resistance.blade|%\n"
-"pierce: $resistance.pierce|%\n"
-"impact: $resistance.impact|%\n"
-"fire: $resistance.fire|%\n"
-"cold: $resistance.cold|%\n"
-"arcane: $resistance.arcane|%</small>"
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [option]: speaker=narrator
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:756
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:769
-msgid "Movement Costs"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:770
-msgid ""
-"<span color='gold'>Gold: $gold|</span>\n"
-"<b>Training left: $terup_left_$side_number||</b>\n"
-"\n"
-"<i>Current movement costs:</i>\n"
-"<small>flat: $unit.movement_costs.flat|\n"
-"forest: $unit.movement_costs.forest|\n"
-"hills: $unit.movement_costs.hills|\n"
-"mountains: $unit.movement_costs.mountains|\n"
-"sand: $unit.movement_costs.sand|\n"
-"frozen: $unit.movement_costs.frozen|\n"
-"cave: $unit.movement_costs.cave|\n"
-"shallow water: $unit.movement_costs.shallow_water|\n"
-"swamp: $unit.movement_costs.swamp_water|\n"
-"castle: $unit.movement_costs.castle|\n"
-"fungus: $unit.movement_costs.fungus|</small>"
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [option]: speaker=narrator
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:1216
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:1252
-msgid "Defenses"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:1253
-msgid ""
-"<span color='gold'>Gold: $gold|</span>\n"
-"<b>Training left: $defup_left_$side_number||</b>\n"
-"\n"
-"<i>Current defenses (max: 80%):</i>\n"
-"<small>flat: $defense.flat|%\n"
-"forest: $defense.forest|%\n"
-"hills: $defense.hills|%\n"
-"mountains: $defense.mountains|%\n"
-"sand: $defense.sand|%\n"
-"frozen: $defense.frozen|%\n"
-"cave: $defense.cave|%\n"
-"shallow water: $defense.shallow_water|%\n"
-"swamp: $defense.swamp_water|%\n"
-"castle: $defense.castle|%\n"
-"fungus: $defense.fungus|%</small>"
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [option]: speaker=narrator
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:1707
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:1727
-msgid "New Ability"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:1728
-msgid ""
-"<span color='gold'>Gold: $gold|</span>\n"
-"\n"
-"Only 1 ability can be bought."
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [option]: speaker=narrator
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:1944
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:1964
-msgid "New Weapon"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:1965
-msgid ""
-"<span color='gold'>Gold: $gold|</span>\n"
-"\n"
-"Only 1 weapon can be bought."
-msgstr ""
-
-#. [effect]: type=fire
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:1994
-msgid "whip of hell"
-msgstr ""
-
-#. [effect]: type=cold
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:2029
-msgid "eye of dread"
-msgstr ""
-
-#. [effect]: type=blade
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:2064
-msgid "battleaxe"
-msgstr ""
-
-#. [effect]: type=arcane
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:2099
-msgid "stormtrident"
-msgstr ""
-
-#. [effect]: type=impact
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:2134
-msgid "hammer of thursagan"
-msgstr ""
-
-#. [effect]: type=pierce
-#: Valley_of_the_Ancients/utils/Death_upgrade.cfg:2169
-msgid "bullseye"
 msgstr ""
 
 #. [option]: speaker=narrator
